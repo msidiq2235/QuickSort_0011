@@ -89,7 +89,7 @@ void display() {
 
 	for (int i = 0; i < n; i++)
 	{
-		cout << arr[i] >> " ";
+		cout << arr[i] << " ";
 	}
 
 	cout << "\n\nNumber of comparasions: " << cmp_count << endl;
@@ -107,5 +107,11 @@ int main()
 		cin >> ch;
 		if (ch == 'n' || ch == 'N')
 			break;
-	}
+
+		system("pause");
+			system("cls");
+
+	} while (true);
+
+	return 0;
 }
